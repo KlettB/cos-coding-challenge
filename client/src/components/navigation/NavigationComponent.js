@@ -2,7 +2,7 @@ const NavigationComponent = () => (
     <div className="w-28 bg-primary overflow-y-auto block">
         <div className="w-full py-6 flex flex-col items-center">
             <div className="flex-shrink-0 flex items-center">
-                <img className="h-8 w-auto" src="cosuno_logo.svg" alt="Workflow" />
+                <img className="h-8 w-auto" src="images/cosuno_logo.svg" alt="Workflow" />
             </div>
             <div className="flex-1 mt-6 w-full px-2 space-y-1">
                 <a href="/#" className="text-indigo-100 hover-bg-primary hover:text-white group w-full p-3 rounded-md flex flex-col items-center text-xs font-medium">

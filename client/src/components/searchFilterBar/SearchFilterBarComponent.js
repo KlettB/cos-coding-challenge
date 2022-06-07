@@ -31,10 +31,8 @@ const SearchFilterBarComponent = props => (
                         <a href="https://github.com/KlettB/cos-coding-challenge" target="_blank" rel="noreferrer noopener" className="px-3 py-2 rounded-md text-sm font-medium text-gray-700">Github Repo</a>
                     </div>
                     <div className="relative flex-shrink-0">
-                        <a href="https://www.linkedin.com/in/bastian-klett-0b0912193" target="_blank" rel="noreferrer noopener">
-                            <button type="button" className="bg-white rounded-full flex text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
-                                <img className="h-8 w-8 rounded-full" src="bastianklett.jpeg" alt="" />
-                            </button>
+                        <a href="https://www.linkedin.com/in/bastian-klett-0b0912193" className="rounded-full" target="_blank" rel="noreferrer noopener">
+                            <img className="h-8 w-8 rounded-full" src="images/bastianklett.jpeg" alt="Link to Bastian Klett LinkedIn Profile" />
                         </a>
                     </div>
                 </div>

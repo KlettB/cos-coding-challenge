@@ -11,7 +11,7 @@ const app = express()
 
 app.use(compression())
 app.use(cors())
-app.use(express.static(path.resolve(__dirname, '../client/dist')))
+app.use(express.static(path.resolve(__dirname, '../client/build')))
 
 setupCompanyMockData()
 
