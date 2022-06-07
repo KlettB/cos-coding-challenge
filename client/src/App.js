@@ -1,5 +1,4 @@
 import NavigationComponent from "./components/navigation/NavigationComponent";
-import SearchFilterBarComponent from "./components/searchFilterBar/SearchFilterBarComponent";
 import CompaniesPage from "./pages/companies/CompaniesPage";
 
 import './App.css';
