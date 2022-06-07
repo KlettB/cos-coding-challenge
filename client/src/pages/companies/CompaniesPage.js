@@ -17,7 +17,7 @@ const CompaniesPage = () => {
     }, [])
 
     async function getCompanies() {
-        const getCompaniesResponse = await fetch(process.env.API_URL || 'http://localhost:3030/companies');
+        const getCompaniesResponse = await fetch(process.env.REACT_APP_API_KEY || 'http://localhost:3030/companies');
         const companiesFromResponse = await getCompaniesResponse.json()
         setCompanies(companiesFromResponse)
     }
