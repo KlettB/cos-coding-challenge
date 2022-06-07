@@ -1,0 +1,8 @@
+.bg-primary {
+    background: linear-gradient(135deg, #265ac9, #1b439b);
+}
+
+.bg-selected,
+.hover-bg-primary:hover {
+    background: #1b439b;
+}
