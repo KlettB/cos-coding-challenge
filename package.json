@@ -12,7 +12,6 @@
     "start:dev": "npm-run-all --parallel start:server start:client",
     "start:server": "node server/index.js",
     "start:client": "cd client && npm run start",
-    "postinstall": "cd client && npm install",
     "test": "jest ./server",
     "posttest": "npm run test:cov",
     "test:cov": "jest --coverage"
